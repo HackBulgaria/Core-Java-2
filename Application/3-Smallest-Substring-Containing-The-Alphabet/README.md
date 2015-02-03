@@ -1,13 +1,21 @@
-# Application problems for Core Java
+#### Smallest Substring Containing The Alphabet
 
-## Problem 1 - Primes in an interval
+###### Description
+In a programming language of your choice, implement the following function/method:
+```
+smallestSubstringContainingTheAlphabet(str)
+```
+Given a string return the smallest substring that contains every letter from the English alphabet
 
-[Read the description here.](1-Primes-In-An-Interval)
+###### Examples
+```
+smallestSubstringContainingTheAlphabet("aaaaaabcdefghijklmnopqrstuvwxyz") -> aaaaa[abcdefghijklmnopqrstuvwxyz]
+smallestSubstringContainingTheAlphabet("abcdefghijklmn124345678!@#$%^&*opqrstuvwxyz!*abcdefghijklmn") -> abcdefghijklmn124345678!@#$%^&*[opqrstuvwxyz!*abcdefghijklmn]
+```
+The output should be what's in the square brackets in the examples, they are there just for clarity
 
-## Problem 2 - List duplicating files
-
-[Read the description here.](2-List-Duplicating-Files)
-
-## Problem 3 - Smallest substring containing the alphabet
-
-[Read the description here.](3-Smallest Substring Containing The Alphabet)
+###### Details
+- The string will contain no whitespaces
+- The string may contain characters like `, . ~ ! @ # $ %` etc. But nothing outside of ASCII
+- The algorithm should be case insensitive
+- The order in which the letters are found is irrelevant
