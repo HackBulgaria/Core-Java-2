@@ -11,3 +11,7 @@
 ## Problem 3 - Smallest substring containing the alphabet
 
 [Read the description here.](3-Smallest Substring Containing The Alphabet)
+
+## Problem 4 - Convert to greyscale
+
+[Read the description here.](4-Convert-To-Greyscale)
