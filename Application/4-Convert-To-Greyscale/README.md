@@ -9,15 +9,10 @@ Given the path of a color image (.jpg, .png, .bmp) create a greyscale version of
 ## Examples
 **original**
 
-
 ![original](images/john-romero.jpg)
-
-
 
 **greyscale**
 
-
 ![greyscale](images/john-romero-greyscale.jpg)
-
 
 **WARNING!** You are not allowed to use any libraries, you have to write your own algorithm!
