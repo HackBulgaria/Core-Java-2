@@ -5,7 +5,7 @@ In a programming language of your choice, implement the following function/metho
 ```
 listDuplicatingFiles(dir)
 ```
-Return a collection of all the files in a given directory `dir`. When we say "all the files" we mean all the files...recursively. Meaning that the files contained in the subfolders all the way down should also be included. From those files, exclude the ones who are equal to previously discovered files. By equal we mean files with equal contents, we don't care about the timestamp or the file name.
+Return a collection of all the files in a given directory `dir`. When we say "all the files" we mean all the files...recursively. Meaning that the files contained in the subfolders all the way down should also be included. From those files, exclude the ones who are equal to previously discovered files. By equal we mean files with equal contents, we don't care about the timestamp or the file name
 
 ###### Examples
 Let's say that your current directory looks like this:
