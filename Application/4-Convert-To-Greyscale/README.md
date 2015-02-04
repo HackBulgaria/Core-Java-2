@@ -1,4 +1,8 @@
-# Problem 4 - Convert To Greyscale
+# Problem 4 - Convert To Greyscale - this is optional!
+
+**This problem is optional. Solve it only if you can!**
+
+**You can apply with the previous 3 tasks.**
 
 In a programming language of your choice, implement the following function/method:
 ```
