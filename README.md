@@ -23,7 +23,7 @@ The second edition of the Core Java course in Hack Bulgaria.
 * Week 4 -> Working with external libraries. JSON, HttpClient & email sending.
 * Week 5 -> Consuming REST services, Downloading things from the internet, crawling websites & making heartbeat services.
 * Week 6 -> Servlets, Tomcat, Annotations, Reflection 
-* Week 7 -> Generics 2, Weak pointers, Garbage Collection, Threading
-* Week 8 -> Multithreading - Parallel Execution, Java concurrency mechanisms
-* Week 9 -> Java 8 API & Functional paradigm.
+* Week 7 -> Multithreading - Parallel Execution, Java concurrency mechanisms
+* Week 8 -> Java 8 API & Functional paradigm.
+* Week 9 -> Generics 2, Weak pointers, Garbage Collection, More Threading
 
