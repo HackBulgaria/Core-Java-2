@@ -120,7 +120,14 @@ public class Problems2Impl implements Problems2 {
 
     @Override
     public int[] histogram(short[][] image) {
-        int[] hist = {1};
+        int[] hist = new int[255];
+        
+        for(int i=0;i<image.length;i++){
+            for(int j=0;j<image[i].length;j++){
+                hist[image[i][j]]++;
+            }
+        }
+        
         return hist;
     }
 
@@ -179,14 +186,26 @@ public class Problems2Impl implements Problems2 {
 
     @Override
     public long maximalScalarSum(int[] a, int[] b) {
-
-        return 0;
+        Arrays.sort(a);
+        Arrays.sort(b);
+        int sum = 0;
+        
+        for(int i=0;i<a.length;i++) sum += (a[i] * b[i]);        
+        
+        return sum;
     }
 
     @Override
     public int maxSpan(int[] array) {
-        // TODO Auto-generated method stub
-        return 0;
+       int max_span = 0;
+       for(int i=0;i<array.length-1;i++){
+           for(int j=i+1;j<array.length;j++){
+               if(array[i] == array[j] && max_span<=(i+j-1)){
+                       max_span = (i+j-1);
+               }
+           }
+       }           
+        return max_span;
     }
 
     @Override
@@ -210,8 +229,16 @@ public class Problems2Impl implements Problems2 {
 
     @Override
     public int[][] rescale(int[][] original, int newWidth, int newHeight) {
-        // TODO Auto-generated method stub
-        return original;
+
+        int scale = ((original.length + 1)/newWidth + (original[0].length+1)/newHeight)/2;
+        
+        final int[][] rescaled = new int[newWidth][newHeight];
+        for(int i=0;i<newWidth;i++){
+            for(int j=0;j<newHeight;j++){
+                rescaled[i][j] = original[(i*scale)][(j*scale)];
+            }
+        }
+        return rescaled;
     }
 
     @Override
