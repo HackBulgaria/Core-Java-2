@@ -200,12 +200,13 @@ public class Problems2Impl implements Problems2 {
        int max_span = 0;
        for(int i=0;i<array.length-1;i++){
            for(int j=i+1;j<array.length;j++){
-               if(array[i] == array[j] && max_span<=(i+j-1)){
-                       max_span = (i+j-1);
+               
+               if(array[i] == array[j] && max_span<=(j-i)){
+                   max_span = (j-i); 
                }
            }
        }           
-        return max_span;
+        return max_span+1;
     }
 
     @Override

@@ -154,8 +154,9 @@ public class Problems2Tests {
     @Test
     public void testMaxSpan() {
         assertEquals(4, problems2.maxSpan(new int[] { 1, 2, 1, 1, 3 }));
-        //assertEquals(6, problems2.maxSpan(new int[] { 1, 4, 2, 1, 4, 1, 4 }));
-        //assertEquals(6, problems2.maxSpan(new int[] { 1, 4, 2, 1, 4, 4, 4 }));
+        assertEquals(6, problems2.maxSpan(new int[] { 1, 4, 2, 1, 4, 1, 4 }));
+        assertEquals(6, problems2.maxSpan(new int[] { 1, 4, 2, 1, 4, 4, 4 }));
+        assertEquals(12, problems2.maxSpan(new int[] { 1, 4, 2, 1, 4, 4, 4, 9, 9, 9, 9, 1 }));
     }
 
     @Test
