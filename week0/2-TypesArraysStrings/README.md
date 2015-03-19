@@ -161,9 +161,4 @@ convertToGreyscale(imgPath)
 ```
 Given the path of a color image (.jpg, .png, .bmp) create a greyscale version of it and save it. 
 
-Optional - take out the historgram.
-
-Do auto contrast of the image.
-Help: http://stackoverflow.com/questions/9744255/instagram-lux-effect/9761841#9761841
-
 **WARNING!** You are not allowed to use any libraries, you have to write your own algorithm!
