@@ -380,14 +380,8 @@ public class Problems2Impl implements Problems2 {
         int slen = string.length();
 
         for(int i=0;i<=string2.length()-slen;i++){
-            
-            char[] word1 = string.replaceAll("[\\s]", "").toCharArray();
-            char[] word2 = string2.substring(i, i+slen).replaceAll("[\\s]", "").toCharArray();
-
-            Arrays.sort(word1);
-            Arrays.sort(word2);
-            
-            if(Arrays.equals(word1, word2)) return true;            
+            if(areAnagrams(string,string2.substring(i, i+slen))) 
+                return true;
         }
         
         return false;
