@@ -178,10 +178,16 @@ public class Problems2Impl implements Problems2 {
 
     @Override
     public long pow(int a, int b) {
-        long p = 1;
-        for (int i = 1; i <= b; i++)
-            p *= a;
-        return p;
+        
+        if (b == 0) return 1;
+
+        if (b < 0)
+            return 1 / pow(a, -b);
+        long half = pow(a, b / 2);
+        if (b % 2 == 0)
+            return half * half;
+        else
+            return (a * half * half);      
     }
 
     @Override
@@ -321,7 +327,6 @@ public class Problems2Impl implements Problems2 {
             URI uri = new URI(input);
             return uri.getPath().toString();
         } catch (URISyntaxException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return "";
@@ -329,6 +334,7 @@ public class Problems2Impl implements Problems2 {
 
     @Override
     public int sumOfNumbers(String input) {
+        
         int sum = 0;
         String num = "";
         boolean minus = false;
