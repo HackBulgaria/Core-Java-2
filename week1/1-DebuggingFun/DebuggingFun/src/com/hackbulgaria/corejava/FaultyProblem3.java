@@ -4,11 +4,10 @@ public class FaultyProblem3 {
     
     public String reverseEveryWordInString(String sentence){
         String[] words = sentence.split(" ");
-        StringBuilder new_sentence = new StringBuilder();
         for (String word: words){
-            new_sentence.append(reverse(word) + " ");
+            sentence = sentence.replace(word, reverse(word));
         }
-        return new_sentence.substring(0,new_sentence.length()-1).toString();
+        return sentence;
     }
 
     private CharSequence reverse(String word) {
