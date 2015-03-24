@@ -12,7 +12,7 @@ public class FaultyProblem5 {
                 limit = res;
             }
         }
-        return limit;
+        return res;
     }
     
 }

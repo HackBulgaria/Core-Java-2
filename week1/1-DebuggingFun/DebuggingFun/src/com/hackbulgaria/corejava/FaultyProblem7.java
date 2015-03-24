@@ -20,7 +20,6 @@ public class FaultyProblem7 {
             } else {
                 low = mid;
             }
-            mid = (low + high) / 2;
         }
 
         if (array[high] == element)
