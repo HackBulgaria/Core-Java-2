@@ -1,13 +1,13 @@
 *On OOP in General*
 https://www.youtube.com/watch?v=lbXsrHGhBAU
 Q&A : What are the main principles of OOP programming?
-1.What is Polymorphism?
-2.What is Encapsolation?
-3.What is Data Abstraction?
-4.What is Inheritance?
-5.Whis is the founding principle...?
+# What is Polymorphism?
+# What is Encapsolation?
+# What is Data Abstraction?
+# What is Inheritance?
+# Whis is the founding principle...?
 Time : 30 min
-----------
+
 *OOP Trail @ Oracle*
 http://docs.oracle.com/javase/tutorial/java/concepts/index.html
 Time : 15 min
