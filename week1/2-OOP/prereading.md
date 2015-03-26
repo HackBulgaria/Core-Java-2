@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=lbXsrHGhBAU
 
 *OOP Trail @ Oracle*
 http://docs.oracle.com/javase/tutorial/java/concepts/index.html
-Time : 15 min
+*Time : 15 min*
 
 
 *Class and Objects @ Oracle (Those pages are actually Sun's property!)*
@@ -32,7 +32,8 @@ http://docs.oracle.com/javase/tutorial/java/concepts/object.html
 
 *More on Classes and objects*
 http://www.javaworld.com/article/2075202/core-java/object-oriented-language-basics-part-1.html?page=1
-Time : 15 min
+
+*Time : 15 min*
 
 *Constructors & new()*
 http://www.javaworld.com/article/2076204/core-java/understanding-constructors.html
@@ -50,14 +51,30 @@ http://www.javaworld.com/article/2076614/core-java/object-initialization-in-java
 http://www.programmerinterview.com/index.php/java-questions/interface-vs-abstract-class/
 http://www.javaworld.com/article/2077421/learn-java/abstract-classes-vs-interfaces.html?null
 
+*Time : 15 min*
+
 *Override, overload, hide*
 http://docs.oracle.com/javase/tutorial/java/IandI/override.html
 
+*Q&A*
+* What is @Override annotation?
+* Default methods in interfaces? Their scope and how are they hidden?
+
+*Time : 20 min*
+
 *Subtyping & Liskov principle*
 https://www.youtube.com/watch?v=IL61KMYK0b8
+*Q&A*
+*What is Liskov principle?*
+
+*Time : 10 min*
 
 *Default Methods*
 http://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
 
+*Time : 20 min*
+
 *Invariants*
 http://people.cs.aau.dk/~normark/oop-csharp/html/notes/contracts_themes-class-inv-sect.html
+
+*Time : 20 min*
