@@ -4,8 +4,6 @@
 Make a class Car. 
 Make several(at least 4) subtypes of Car, representing the different brands of cars - Audi, BMW, Wolkswagen (of course!), etc. 
 
-Implement the toString method, to match the type of the class. For example, an object of type Audi should return "Audi@1f52ac3";
-
 Later, for the Audi type you need to return its mileage, because all the German brand manufacturers require it - how you will do it?
 
 ###2###
