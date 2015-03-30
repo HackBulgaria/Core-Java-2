@@ -181,7 +181,8 @@ Outputs:
 
 Retain the ordering of the elements!
 
-###12.Cryptoanalysis fun###
+##Epic bonus!##
+###Cryptoanalysis fun###
 There is an old technique for encrypting messages - shuffling the letters. For instance, if we take the string `Godzilla`, one crypted version of it 
 is `Mrezotti`.
 The cipher here is
