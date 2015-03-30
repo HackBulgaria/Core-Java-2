@@ -7,11 +7,6 @@ Such expression is correct if:
 - the number of opening brackets equals exactly the number of closing brackets
 - at no point in the string the number of closing brackets is higher than the number of opening brackets. E.g. `())(()` is not a valid one, because at index 2 there is a second closing bracket with only one opening bracket.
 
-TDD, of course.
-
-*Hint (and also spoiler)*
-Is there a way you can use a *stack* in here?
-
 ###1.Reverse a generic collection###
 Declare a method, expecting a Collection and reverse it in your method. Return the same collection given, do not return a new collection!.
 Either use:
