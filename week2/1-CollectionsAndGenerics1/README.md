@@ -38,6 +38,7 @@ boundedQueue.offer(4);
 boundedQueue.offer(5);
 System.out.println(boundedQueue.toString()); //3,4,5
 ```
+*Hint:* View the java impl and interface:)
 
 ###4.Rotate the elements of a collection###
 Make a void *utility* method that rotates the contents of a collection.
@@ -77,6 +78,8 @@ C = {5,6,7,8}
 Lets say you have a `List<Student>`, where a Student is a class, containing two fields: `name` and `grade`.
 
 Sort them by their grades first. Their grades actually are integers => 2,3,4,5,6. If two students happen to have the same grades, sort those two by their names.
+
+*hint* : Use Comparable or Comparator
 
 ###8.Give me the median, quick!###
 Make an interface `Statistics`, which has these operations:
@@ -145,6 +148,8 @@ System.out.println(todo.getTimeNeeded()) //sum of the time needed for every task
 See Comparable and Comparator classes in Java. Check out the PriorityQueue class.
 http://javarevisited.blogspot.com/2011/06/comparator-and-comparable-in-java.html
 
+Use of generic classes.
+
 ###10.Make a utility method that converts a hashMap into a very human-readable string###
 Make a *utility* method that takes a `HashMap<? extends Object, ? extends Object>`
 and *returns a String*, representing the HashMap.
@@ -178,6 +183,10 @@ Retain the ordering of the elements!
 
 ##Epic bonus!##
 ###Cryptoanalysis fun###
+=======
+*Hint*
+LinkedHashMap
+
 There is an old technique for encrypting messages - shuffling the letters. For instance, if we take the string `Godzilla`, one crypted version of it 
 is `Mrezotti`.
 The cipher here is
