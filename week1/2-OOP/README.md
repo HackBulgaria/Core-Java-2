@@ -73,8 +73,7 @@ The method should `operate(MatrixOperation op)`  should call the `withPixel` met
 Now that you have this, implement:
 - brightness reduce
 - grayscale
-- gaussian blur
-- anti-aliasing (optional)
+- gaussian blur (optional)
 
 ###9###
 Create a friendly interactive calculator in java
