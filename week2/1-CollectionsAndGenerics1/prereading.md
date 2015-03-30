@@ -53,3 +53,6 @@ http://stackoverflow.com/questions/27581/overriding-equals-and-hashcode-in-java
 * Mutable keys in Maps
 
 *Time : 20 min*
+
+*Additional reading*
+http://javarevisited.blogspot.com/2013/10/what-is-priorityqueue-data-structure-java-example-tutorial.html
