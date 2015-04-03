@@ -48,7 +48,7 @@ Make a constructor that accepts a `Collection<? extends E> collection` in which 
 Implement `Arrays.asList()` factory method functionality - declare a static method `<T> List<T> asList(T... arguments)`. 
 Use the `@SafeVarargs` annotation on top of your method declararation to tell the compiler you won't be naughty.
 
-### 6. Implement a XmlMarkupBuilder class ###
+### Bonus. Implement a XmlMarkupBuilder class ###
 Make an easy to use XmlMarkupBuilder class, which creates a **valid xml** 
 
 We won't worry about namespaces here. By valid, I mean having the `<?xml version="1.0" encoding="UTF-8"?>` declaration, and having only tags, attributes, and text between a tag opening and tag closing.
