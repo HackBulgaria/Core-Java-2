@@ -41,12 +41,14 @@ Create a class 'ImmutableList', which implements List. It's okay to extend somet
 Your delcaration should be like this:
 `public class Immutable<E> extends ArrayList<E>`
  
-But make your instances immutable, and throw exception when anyone tries to modify them.
+Make your instances immutable, and throw exception when anyone tries to modify them. That means that the strcuture of the list should remain the same (unmodifiable), and the objects as well (immutable).
 Of course, in order for your class to be immutable, you need good constructors.
 Make a constructor that accepts a `Collection<? extends E> collection` in which you add all the elements from `collection` to your list, and forbid anyone to modify it by throwing an exception when anyone tries to do that. 
 
 Implement `Arrays.asList()` factory method functionality - declare a static method `<T> List<T> asList(T... arguments)`. 
 Use the `@SafeVarargs` annotation on top of your method declararation to tell the compiler you won't be naughty.
+
+Hint: In the `get` method return a clone of the element, so it can't be modified from the outside. Use Apache Commons for object cloning https://commons.apache.org/proper/commons-lang/javadocs/api-2.6/org/apache/commons/lang/SerializationUtils.html
 
 ##Bonus!##
 ### Implement a XmlMarkupBuilder class ###
