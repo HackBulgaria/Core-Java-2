@@ -48,4 +48,4 @@ http://docs.oracle.com/javase/tutorial/essential/io/index.html
 * What is Scanner?
 * What kind of Links are there?//symbolic, hard
 
-*Time: 1H 30 min*
+*Time: 2H*
