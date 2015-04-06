@@ -90,23 +90,13 @@ In summary:
 - The text in the file given is encoded using a **windows-1251** scheme. 
 - Conver it to UTF-8.
 
-
-### 5. Enums quick write-up
-Design an Enum name 'Day', containing the days => MONDAY, TUESDAY... SUNDAY
-
-Design a method greetMe(Day day), which returns a (String) different greeting per day.
-
-Example
-greetMe(Day.Monday) => "Holla!";
-greetMe(Day.Tuesday) => "Aloha!";
-
-### 6. Reduce-file-path in 1 line
+### 5. Reduce-file-path in 1 line
 *This is a really quick one.*
 Solve the [reduce-file-path problem (number 27)] (https://github.com/HackBulgaria/Programming101/blob/master/week0/simple_problems2.md) with no more than 1 line of Java code.
 Check out [the normalize method] (http://docs.oracle.com/javase/7/docs/api/java/nio/file/Path.html#normalize%28%29)
 
 
-### 7. Find all broken links in a given folder
+### 6. Find all broken links in a given folder
 A broken link is a link that points to something that is simply not there.   
 Make a **utility** method that is given a folder (as a Path),  and searches recursively for bad links.  
 If it finds a bad link, it should simply print it out.  
@@ -114,7 +104,7 @@ If it finds a bad link, it should simply print it out.
 How to detect a bad link? Use `Files.isSymbolicLink(path)` in order to check if a file is a link, and `Files.readSymbolicLink(path)` in order to follow it and receive its target's path.
 
 
-### 8. Implement a simple text file compression
+### 7. Implement a simple text file compression
 (*Optional*)
 
 Create a **utility** method `compress(Path filePath)`
@@ -135,7 +125,7 @@ Implement a decompressing scheme (another **utility** method)
 Check out the file compression you've just made : )
 
 
-### 9. Find all duplicated files!
+### 8. Find all duplicated files!
 
 ##### Summary:
 Two files are **duplicates** if all the **bytes** from file1 are the same as the **bytes** from file2.
