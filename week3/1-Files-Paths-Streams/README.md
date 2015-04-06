@@ -15,7 +15,7 @@ Do the same for a 'write' method.
 Make sure you have utility methods that read from and write to files, and people can use them in 1-liners.
 
 ### 2. Implement a 'Properties' file parser.
-
+B
 [.properties files](http://en.wikipedia.org/wiki/.properties) are commonly used in java as a resources and configuration. They just represent a key=value pairs, where each pair is a new line. The `#` sign denotes a comment.
 
 Make a **utility** method `Map<String, String> parseProperties` that reads a .properties file and returns its content as a Map<String,String>.
@@ -111,7 +111,7 @@ Create a **utility** method `compress(Path filePath)`
 that reads the text from `filePath` and writes it back in a compressed way, adding the `.compr` extension (or one of your choosing).
 
 Let's have the file 
-`Buffalo buffalo buffalo rides a buffalo buffalo buffalo.`
+`buffalo buffalo buffalo rides a buffalo buffalo buffalo.`
 There are a lot of repeating words here (duuh).
 
 Parse all the words from a file, add them to an index, and assign them numbers.
