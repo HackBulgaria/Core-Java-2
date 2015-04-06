@@ -170,3 +170,15 @@ Hints:
 - Be very careful when dealing with **OS-Special files (devices files)**. You should ignore them, as the OS call might block/hang when you try to read or write into of them. Use `Files.isRegular(path)` to check whether a file is a normal file, or it's a special file and we should probably not play with it.
 - Create a folder `testData` in your project. Create several folders and files with which you can test your problem. If you are too lazy for that, just download and unzip [this test data] (https://github.com/HackBulgaria/Core-Java-1/blob/master/7-Files1/testData.zip) in your project.
 [More spoilers and possible approaches] (https://gist.github.com/GeorgiPachov/039d2c339358dbfcc650)
+
+
+### 9. BONUS for fun : Implement a simplified java MP3 file renaming organizer
+
+THE ORGANIZER  could read ID3 tags from mp3 file. The app should read all mp3 files recursively from the given directory, and move them to given pattern. Create needed directories.
+
+example mp3editor.jar "songs"
+
+In directory "songs" read all mp3 files. For every artist create directory, containing all his albums. For each album include all mp3s from this album.
+
+Helpful links: 
+http://javamusictag.sourceforge.net/
