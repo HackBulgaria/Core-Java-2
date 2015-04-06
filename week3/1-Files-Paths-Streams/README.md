@@ -125,6 +125,7 @@ Check out the file compression you've just made : )
 
 
 ### 8. Find all duplicated files!
+*(optional)*
 
 ##### Summary:
 Two files are **duplicates** if all the **bytes** from file1 are the same as the **bytes** from file2.
