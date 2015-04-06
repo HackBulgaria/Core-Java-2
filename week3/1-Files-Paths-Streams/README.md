@@ -1,4 +1,4 @@
-### Prepare utility methods for reading and writing to files
+### 1. Prepare utility methods for reading and writing to files
 
 Create a class `FileUtils`. Forbid it's instantiating (make the default constructor private).
 Create and implement a **utility** method `String readFrom(File file)`.
@@ -14,7 +14,7 @@ For this task, do not worry about performance or different encoding.
 Do the same for a 'write' method.
 Make sure you have utility methods that read from and write to files, and people can use them in 1-liners.
 
-### Implement a 'Properties' file parser.
+### 2. Implement a 'Properties' file parser.
 
 [.properties files](http://en.wikipedia.org/wiki/.properties) are commonly used in java as a resources and configuration. They just represent a key=value pairs, where each pair is a new line. The `#` sign denotes a comment.
 
@@ -46,7 +46,7 @@ Hints and suggestions:
 - Do not polute the filesystem because you are writing tests. Clean up (delete the file in `tearDown`) after your each test run. Your file is relevant ONLY for the tests, and it should not outlive them. 
 
 
-### Implement the wc command
+### 3. Implement the wc command
 
 Create a **utility** method `WordCountResult wordCount(Path path)` with an overload `WordCountResult wordCount(File file)`.
 As you've probably guessed, the `WordCountResult` is a custom class, having these methods
@@ -60,7 +60,7 @@ Follow the testing approach described in the previous task.
 
 
 
-### Fix these subtitles
+### 4. Fix these subtitles
 Have you ever wanted to watch a movie, and all the cyrillic characters be like ������? 
 
 Have you ever received emails like "Greetings, dear �������"?
@@ -91,7 +91,7 @@ In summary:
 - Conver it to UTF-8.
 
 
-### Enums quick write-up
+### 5. Enums quick write-up
 Design an Enum name 'Day', containing the days => MONDAY, TUESDAY... SUNDAY
 
 Design a method greetMe(Day day), which returns a (String) different greeting per day.
@@ -100,13 +100,13 @@ Example
 greetMe(Day.Monday) => "Holla!";
 greetMe(Day.Tuesday) => "Aloha!";
 
-### Reduce-file-path in 1 line
+### 6. Reduce-file-path in 1 line
 *This is a really quick one.*
 Solve the [reduce-file-path problem (number 27)] (https://github.com/HackBulgaria/Programming101/blob/master/week0/simple_problems2.md) with no more than 1 line of Java code.
 Check out [the normalize method] (http://docs.oracle.com/javase/7/docs/api/java/nio/file/Path.html#normalize%28%29)
 
 
-### Find all broken links in a given folder
+### 7. Find all broken links in a given folder
 A broken link is a link that points to something that is simply not there.   
 Make a **utility** method that is given a folder (as a Path),  and searches recursively for bad links.  
 If it finds a bad link, it should simply print it out.  
@@ -114,7 +114,7 @@ If it finds a bad link, it should simply print it out.
 How to detect a bad link? Use `Files.isSymbolicLink(path)` in order to check if a file is a link, and `Files.readSymbolicLink(path)` in order to follow it and receive its target's path.
 
 
-### Implement a simple text file compression
+### 8. Implement a simple text file compression
 (*Optional*)
 
 Create a **utility** method `compress(Path filePath)`
@@ -135,7 +135,7 @@ Implement a decompressing scheme (another **utility** method)
 Check out the file compression you've just made : )
 
 
-### Find all duplicated files!
+### 9. Find all duplicated files!
 
 ##### Summary:
 Two files are **duplicates** if all the **bytes** from file1 are the same as the **bytes** from file2.
@@ -180,7 +180,3 @@ Hints:
 - Be very careful when dealing with **OS-Special files (devices files)**. You should ignore them, as the OS call might block/hang when you try to read or write into of them. Use `Files.isRegular(path)` to check whether a file is a normal file, or it's a special file and we should probably not play with it.
 - Create a folder `testData` in your project. Create several folders and files with which you can test your problem. If you are too lazy for that, just download and unzip [this test data] (https://github.com/HackBulgaria/Core-Java-1/blob/master/7-Files1/testData.zip) in your project.
 [More spoilers and possible approaches] (https://gist.github.com/GeorgiPachov/039d2c339358dbfcc650)
-
-
-
-
