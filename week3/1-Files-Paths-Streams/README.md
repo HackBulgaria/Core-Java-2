@@ -38,6 +38,7 @@ The value for `a6` is `b9 #comment`
 The value for `a7` is `=b10`
 
 Hints and suggestions:
+- Use JUnit @Before, @BeforeClass, @After, @AfterClass http://stackoverflow.com/questions/20295578/difference-between-before-and-beforeclass
 - Make a helper method, that does all the parsing logic (generates the Map from List<String>).
 - Do **not** split the lines on your own like `fileContents.split("\n")`. This is not a cross-platform solution. 
 - First test your helper method, which creates the Map from a given List<String>. 
