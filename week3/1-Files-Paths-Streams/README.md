@@ -8,7 +8,6 @@ For this task, do not worry about different encoding.
 Do the same for a 'write' method.
 
 ### 2. Implement a 'Properties' file parser.
-B
 [.properties files](http://en.wikipedia.org/wiki/.properties) are commonly used in java as a resources and configuration. They just represent a key=value pairs, where each pair is a new line. The `#` sign denotes a comment.
 
 Make a **utility** method `Map<String, String> parseProperties` that reads a .properties file and returns its content as a Map<String,String>.
