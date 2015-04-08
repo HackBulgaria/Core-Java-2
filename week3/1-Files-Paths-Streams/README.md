@@ -3,11 +3,8 @@
 Create a class `FileUtils`. Make it a [Singleton](http://en.wikipedia.org/wiki/Singleton_pattern).
 Implement two methods - `String readFrom(File file)` and `String readFrom(Path path)`.
 They should read **all the contents** from the file to a String, using the default (OS-default) charset.
-
 As this method is an **API**, you should NOT catch the exceptions in the method's body, remember?
-
 For this task, do not worry about different encoding.
-
 Do the same for a 'write' method.
 
 ### 2. Implement a 'Properties' file parser.
