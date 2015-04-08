@@ -161,7 +161,7 @@ Hints:
 
 Traverse a given directory recusrivelly and extract the ID3 tags from all mp3 files.
 Use this information to give the mp3 files appropriate names in order to fix the titles. For instance Unknown Artist - Unknown Song should be renamed to Amaranthe - The Nexus (if you have good taste of course).
-As a plus organize the files based on artist and album. For every artist create directory, containing all his albums. For each album include all mp3s from this album.
+As a plus organize the files based on artist and album. For every artist create a directory, containing a directory for each of his albums. Move the songs into the respective albums.
 
 Usage: `mp3organizer.jar "songs"`
 
