@@ -38,20 +38,13 @@ Hints and suggestions:
 - Create (write) your .properties file (for testing) programmatically, in `setUp`. Do not depend on external resources for testing if you can avoid it!
 - Do not polute the filesystem because you are writing tests. Clean up (delete the file in `tearDown`) after your each test run. Your file is relevant ONLY for the tests, and it should not outlive them. 
 
-
 ### 3. Implement the wc command
 
 Create a **utility** method `WordCountResult wordCount(Path path)` with an overload `WordCountResult wordCount(File file)`.
-As you've probably guessed, the `WordCountResult` is a custom class, having these methods
-```
-int getLineCount(); //returns number of lines
-int getWordCount(); //returns number Of words in File
-int getCharacterCount(); //returns number of characters in the file.
-```
+This method, when given a file, returns the number of words, lines and characters in that file.
+Java can't return multiple values. You can return an instance of `WordCountResult` which is a class that contains three integers - word count, lines count, characters count.
 
 Follow the testing approach described in the previous task.
-
-
 
 ### 4. Fix these subtitles
 Have you ever wanted to watch a movie, and all the cyrillic characters be like ������? 
