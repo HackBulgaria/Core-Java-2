@@ -110,8 +110,7 @@ Implement a decompressing scheme (another **utility** method)
 Check out the file compression you've just made : )
 
 
-### 8. Find all duplicated files!
-*(optional)*
+### BONUS: Find all duplicated files
 
 ##### Summary:
 Two files are **duplicates** if all the **bytes** from file1 are the same as the **bytes** from file2.
@@ -158,9 +157,9 @@ Hints:
 [More spoilers and possible approaches] (https://gist.github.com/GeorgiPachov/039d2c339358dbfcc650)
 
 
-### 9. BONUS for fun : Implement a simplified java MP3 file renaming organizer
+### BONUS: Implement a simplified java MP3 file renaming organizer
 
-THE ORGANIZER  could read ID3 tags from mp3 file. The app should read all mp3 files recursively from the given directory, and move them to given pattern. Create needed directories.
+THE ORGANIZER could read ID3 tags from mp3 file. The app should read all mp3 files recursively from the given directory, and move them to given pattern. Create needed directories.
 
 example mp3editor.jar "songs"
 
