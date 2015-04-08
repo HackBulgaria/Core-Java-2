@@ -6,12 +6,9 @@ They should read **all the contents** from the file to a String, using the defau
 
 As this method is an **API**, you should NOT catch the exceptions in the method's body, remember?
 
-- Add an overload `String readFrom(Path path)`. Make sure one of them calls the other, **do not let code duplication in those methods**.
-
-For this task, do not worry about performance or different encoding.
+For this task, do not worry about different encoding.
 
 Do the same for a 'write' method.
-Make sure you have utility methods that read from and write to files, and people can use them in 1-liners.
 
 ### 2. Implement a 'Properties' file parser.
 B
