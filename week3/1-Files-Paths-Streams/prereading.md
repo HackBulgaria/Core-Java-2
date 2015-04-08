@@ -46,6 +46,9 @@ http://docs.oracle.com/javase/tutorial/essential/io/index.html
 * Bonus: What is Glob?
 * What fincionality represents File in Java?
 * What is Scanner?
+* What is RandomAccessFile?
+* Bonus: What is filter streams?
+* Bonus: What is PrintStream and PrintWriter?
 * What kind of Links are there?//symbolic, hard
 
 *Time: 2H*
