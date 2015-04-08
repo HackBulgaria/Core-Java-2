@@ -157,13 +157,13 @@ Hints:
 [More spoilers and possible approaches] (https://gist.github.com/GeorgiPachov/039d2c339358dbfcc650)
 
 
-### BONUS: Implement a simplified java MP3 file renaming organizer
+### BONUS: MP3 organizer
 
-THE ORGANIZER could read ID3 tags from mp3 file. The app should read all mp3 files recursively from the given directory, and move them to given pattern. Create needed directories.
+Traverse a given directory recusrivelly and extract the ID3 tags from all mp3 files.
+Use this information to give the mp3 files appropriate names in order to fix the titles. For instance Unknown Artist - Unknown Song should be renamed to Amaranthe - The Nexus (if you have good taste of course).
+As a plus organize the files based on artist and album. For every artist create directory, containing all his albums. For each album include all mp3s from this album.
 
-example mp3editor.jar "songs"
-
-In directory "songs" read all mp3 files. For every artist create directory, containing all his albums. For each album include all mp3s from this album.
+Usage: `mp3organizer.jar "songs"`
 
 Helpful links: 
 http://javamusictag.sourceforge.net/
