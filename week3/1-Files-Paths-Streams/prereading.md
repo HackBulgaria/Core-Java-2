@@ -35,6 +35,9 @@ http://ttp.essex.ac.uk/images/examples/io_closeable/5.png
 *IO trail @ Oracle*
 http://docs.oracle.com/javase/tutorial/essential/io/index.html
 
+*Article for all kinds of links in Windows*
+http://comptb.cects.com/overview-to-understanding-hard-links-junction-points-and-symbolic-links-in-windows/
+
 *Q&A*
 * What is Decorator pattern in Java IO ? http://stackoverflow.com/questions/6366385/decorator-pattern-for-io 
 * What is Stream?
