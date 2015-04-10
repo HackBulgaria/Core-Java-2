@@ -36,12 +36,15 @@ Extends `HashMap` and make it optional for your class to accept null **keys**, b
 Fix the `put`, `get` methods accordingly to allow or not allow null keys. 
 What should you do in those methods if your object is set not to allow null keys? Throw your very own, good-named, custom-made exception with a good message, of course.
 
-### 5. Impement your very own immutable list
+### 5. Impement your very own immutable and unmodifiable list
 Create a class 'ImmutableList', which implements List. It's okay to extend something else.
 Your delcaration should be like this:
 `public class Immutable<E> extends ArrayList<E>`
  
-Make your instances immutable, and throw exception when anyone tries to modify them. That means that the strcuture of the list should remain the same (unmodifiable), and the objects as well (immutable).
+Unmodifiable collection is collection which oce crated can not accept new ellements and its ellements can not be removed.Its add and remove methods should throw exception. 
+
+immutable collection is when its ellements can not be changed once put in it.
+
 Of course, in order for your class to be immutable, you need good constructors.
 Make a constructor that accepts a `Collection<? extends E> collection` in which you add all the elements from `collection` to your list, and forbid anyone to modify it by throwing an exception when anyone tries to do that. 
 
