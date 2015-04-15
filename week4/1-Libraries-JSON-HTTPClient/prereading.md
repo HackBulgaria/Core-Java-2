@@ -27,3 +27,6 @@ let me google that for you:
 * SSL — http://info.ssl.com/article.aspx?id=10241
 * how to import library — http://www.wikihow.com/Add-JARs-to-Project-Build-Paths-in-Eclipse-(Java)
 * send emails — http://www.tutorialspoint.com/java/java_sending_email.htm , http://commons.apache.org/proper/commons-email/
+
+*Bonus:*
+* http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
