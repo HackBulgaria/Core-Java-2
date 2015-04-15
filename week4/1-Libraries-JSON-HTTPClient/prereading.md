@@ -19,3 +19,11 @@ http://hc.apache.org/httpclient-3.x/tutorial.html
 * What is HTTP?
 * What is HTTP request?
 * What is HTTP response?
+
+
+let me google that for you:
+* json — http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it
+* http — http://www.w3schools.com/tags/ref_httpmethods.asp
+* SSL — http://info.ssl.com/article.aspx?id=10241
+* how to import library — http://www.wikihow.com/Add-JARs-to-Project-Build-Paths-in-Eclipse-(Java)
+* send emails — http://www.tutorialspoint.com/java/java_sending_email.htm , http://commons.apache.org/proper/commons-email/
