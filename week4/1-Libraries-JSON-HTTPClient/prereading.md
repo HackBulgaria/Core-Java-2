@@ -37,7 +37,7 @@ let me google that for you:
 *Time : 20 min*
 * how to import library — http://www.wikihow.com/Add-JARs-to-Project-Build-Paths-in-Eclipse-(Java)
 *Time : 20 min*
-* send emails — http://www.tutorialspoint.com/java/java_sending_email.htm , http://commons.apache.org/proper/commons-email/
+* send emails — http://www.tutorialspoint.com/java/java_sending_email.htm , http://commons.apache.org/proper/commons-email/userguide.html
 *Time : 40 min*
 
 *Bonus:*
