@@ -22,6 +22,9 @@ Help Ivan maintain his eagle-like vision. Write a program that waits 45 minutes,
 Use the incredibly-complex JToaster library. Download it from http://jtoaster.sourceforge.net/
 Use the methods `showToaster`, `setToasterWidth`, `setToasterHeight`, `setToasterIcon`, `setToasterColor`, `setBackgroundImage`, `setStep`, etc. to customize and make the coolest toaster you can imagine. Also, set a nice background, something like
 
+*hint*: Toaster toasterManager = new Toaster();
+toasterManager.showToaster( "JToaster Hello World!" );
+
 ![This dog] (http://www.mnn.com/sites/default/files/editorial/Corgeek.jpg)
 
   
