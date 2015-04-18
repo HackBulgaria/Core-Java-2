@@ -22,6 +22,11 @@ http://hc.apache.org/httpclient-3.x/tutorial.html
 let me google that for you:
 * json — http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it
 *Time : 20 min*
+*Q&A*
+* What is JSON?
+* What is JSON structure?
+* Bonus: What is Javascript Object?
+
 * http — http://www.w3schools.com/tags/ref_httpmethods.asp
 *Time : 30 min*
 *Q&A*
