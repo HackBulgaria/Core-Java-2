@@ -8,13 +8,15 @@ Note: The commons-email library depends on the javax.mail library, which you sho
 If you are using gmail's smtp beware :
 
 https://support.google.com/mail/answer/14257
+```
 email.setAuthenticator(new DefaultAuthenticator("username", "password"));
 email.setSSLOnConnect(true);
 email.setDebug(true);
+```
 
 ### 2. JToaster
 
-Ivan stays a lot on his computer. His mother is afraid he will spoils his vision.
+Ivan stays a lot on his computer. His mother is afraid it will spoil his vision.
 As you know very well, you should take a break of at least 5 minutes (actually, it should be 15, but this *might* be outdated).
 
 Help Ivan maintain his eagle-like vision. Write a program that waits 45 minutes, and the shows a notification saying 'Get a little rest, will you?' (or a message of your choosing :D) 
