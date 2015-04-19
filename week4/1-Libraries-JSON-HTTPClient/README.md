@@ -1,4 +1,4 @@
-### Send an email
+### 1. Send an email
 
 Send an email to someone with subject and some text. Add an attachment to mail.  [here](http://d3dsacqprgcsqh.cloudfront.net/photo/azbW3zq_460sa_v1.gif)
 
@@ -12,7 +12,7 @@ email.setAuthenticator(new DefaultAuthenticator("username", "password"));
 email.setSSLOnConnect(true);
 email.setDebug(true);
 
-### JToaster
+### 2. JToaster
 
 Ivan stays a lot on his computer. His mother is afraid he will spoils his vision.
 As you know very well, you should take a break of at least 5 minutes (actually, it should be 15, but this *might* be outdated).
@@ -31,7 +31,7 @@ toasterManager.showToaster( "JToaster Hello World!" );
 Also, check out the `Thread.sleep` method.
 
 
-### Make a QuickCodeInspector desktop application
+### 3. Make a QuickCodeInspector desktop application
 
 Ever needed to really, really quickly inpsect some code?
 Here is a one cool syntax highlighter for java https://code.google.com/p/java-syntax-highlighter/  
@@ -61,12 +61,12 @@ Go and check your cool java program that opens .java files for you. (Remove the 
 In order to do that, make the jframe **focusable**, add a **KeyEventListener**, and when the user presses the arrow-next on the keyboard (see [key-code table](http://www.foreui.com/articles/Key_Code_Table.htm)), `dispose()` the frame and create a new one with a syntax highlighter configured for the next file.   
 6) Make this work recursively for all the files in the folder.  
 
-### Download a file with java
+### 4. Download a file with java
 Using only URL and the stream classes, download this photo: http://d3dsacqprgcsqh.cloudfront.net/photo/aozrdx0_700b.jpg to a location of your choosing
 
 ##### Now accept files from the command line and label your program the 'java wget'. Woohoo!
 
-### Make a simple website crawler (Pair Programming)
+### 5. Make a simple website crawler (Pair Programming)
 Have you grown tiiiiiiired of looking for stuff on websites that simply seems is not in the navigation menu at all?  
 You grow tired of that... and suddenly, baaaam! Someone skypes you the link. It was there, how could I have not seen it.  
 
@@ -101,7 +101,7 @@ Hints/tips:
 - **If you are not comfortable with even using something as ugly as regular expressions, you can do it with regular string matching. It will be harder though :(**
 - Use small websites for testing. For example, http://ebusiness.free.bg is one site you can use. It has very, very few links. (Search for the word 'Револвираща'.)
 
-### Get/print all the people that have signed for more than 1 course at Hack Bulgaria.
+### 6. Get/print all the people that have signed for more than 1 course at Hack Bulgaria.
 Some people have signed for Core Java.  
 Some people have signed for Front-end Javascript.  
 Some people have signed for Angular-JS.   
