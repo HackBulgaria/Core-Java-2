@@ -68,7 +68,7 @@ Using only URL and the stream classes, download this photo: http://d3dsacqprgcsq
 
 ##### Now accept files from the command line and label your program the 'java wget'. Woohoo!
 
-### 5. Make a simple website crawler (Pair Programming)
+### 5. Make a simple website crawler
 Have you grown tiiiiiiired of looking for stuff on websites that simply seems is not in the navigation menu at all?  
 You grow tired of that... and suddenly, baaaam! Someone skypes you the link. It was there, how could I have not seen it.  
 
