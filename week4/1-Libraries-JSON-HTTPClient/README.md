@@ -4,9 +4,9 @@ Send an email to someone with subject and some text. Add an attachment to mail. 
 
 Integrate and use the apache commons-email library from http://commons.apache.org/proper/commons-email/userguide.html
 
-Note: The commons-email library depends on the javax.mail library, which you should download from somewhere. 
-If you are using gmail's smtp beware :
+Note: The commons-email library depends on the javax.mail library, which you should download from somewhere.
 
+If you are using gmail's smtp beware :
 https://support.google.com/mail/answer/14257
 ```
 email.setAuthenticator(new DefaultAuthenticator("username", "password"));
