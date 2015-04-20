@@ -15,7 +15,7 @@ http://docs.oracle.com/javase/tutorial/networking/urls/readingURL.html
 *Time : 40 min*
 
 *Apache HTTP Client*
-http://hc.apache.org/httpclient-3.x/tutorial.html
+https://hc.apache.org/httpcomponents-client-4.4.x/tutorial/html/index.html
 
 *Time : 30 min*
 
