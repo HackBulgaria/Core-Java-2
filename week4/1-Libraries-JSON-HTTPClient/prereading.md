@@ -1,6 +1,7 @@
 *URL vs URI*  
 http://stackoverflow.com/questions/176264/whats-the-difference-between-a-uri-and-a-url
 http://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn/1984225#1984225
+https://danielmiessler.com/study/url_vs_uri/
 
 *Q&A*
 * What is URL?
