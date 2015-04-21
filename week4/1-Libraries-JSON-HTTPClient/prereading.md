@@ -16,7 +16,8 @@ http://docs.oracle.com/javase/tutorial/networking/urls/readingURL.html
 *Time : 40 min*
 
 *Apache HTTP Client*
-https://hc.apache.org/httpcomponents-client-4.4.x/tutorial/html/index.html
+https://hc.apache.org/httpcomponents-client-4.4.x/tutorial/html/index.html,
+http://stackoverflow.com/questions/7199969/apache-httpcore-simple-server-to-echo-received-post-data
 
 *Time : 30 min*
 
