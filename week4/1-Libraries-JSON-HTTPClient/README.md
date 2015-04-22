@@ -65,10 +65,3 @@ Go and check your cool java program that opens .java files for you. (Remove the 
 5) How cool would it be if we could navigate through all the files of the current directory with the arrows of the keyboard?   
 In order to do that, make the jframe **focusable**, add a **KeyEventListener**, and when the user presses the arrow-next on the keyboard (see [key-code table](http://www.foreui.com/articles/Key_Code_Table.htm)), `dispose()` the frame and create a new one with a syntax highlighter configured for the next file.   
 6) Make this work recursively for all the files in the folder.  
-
-### 4. Download a file with java
-Using only URL and the stream classes, download this photo: http://d3dsacqprgcsqh.cloudfront.net/photo/aozrdx0_700b.jpg to a location of your choosing
-
-##### Now accept files from the command line and label your program the 'java wget'. Woohoo!
- 
-
