@@ -1,9 +1,9 @@
-### Download a file with java
+### 1. Download a file with java
 Using only URL and the stream classes, download this photo: http://d3dsacqprgcsqh.cloudfront.net/photo/aozrdx0_700b.jpg to a location of your choosing
 
 ##### Now accept files from the command line and label your program the 'java wget'. Woohoo!
 
-### Make a simple website crawler (Pair Programming)
+### 2. Make a simple website crawler
 Have you grown tiiiiiiired of looking for stuff on websites that simply seems is not in the navigation menu at all?  
 You grow tired of that... and suddenly, baaaam! Someone skypes you the link. It was there, how could I have not seen it.  
 
@@ -38,7 +38,7 @@ Hints/tips:
 - **If you are not comfortable with even using something as ugly as regular expressions, you can do it with regular string matching. It will be harder though :(**
 - Use small websites for testing. For example, http://ebusiness.free.bg is one site you can use. It has very, very few links. (Search for the word 'Револвираща'.)
 
-### Get/print all the people that have signed for more than 1 course at Hack Bulgaria.
+### 3. Get/print all the people that have signed for more than 1 course at Hack Bulgaria.
 Some people have signed for Core Java.  
 Some people have signed for Front-end Javascript.  
 Some people have signed for Angular-JS.   
