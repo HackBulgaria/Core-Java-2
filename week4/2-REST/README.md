@@ -56,5 +56,8 @@ See, whenever you visit HackBulgaria and use our WiFi, your MAC addresses get lo
 
 Using https://hackbulgaria.com/api/checkins/, the [Jettison library](http://jettison.codehaus.org/) and [Apache HttpClient](http://hc.apache.org/httpclient-3.x/tutorial.html), consume the REST service given and print out pairs of String-Integer, where the key (String) is the name of a Person, and the value (Integer) is the number of times he was at HackBulgaria. Sort the pairs when printing - people with more checkins should come before people with less checkins.
 
-
- 
+Hint : At present 27/04/2015 the site of hackbulgaria uses TLSv1.2 wih AES_256_CBC with SHA1 for message authentication and EDCHE_RSA for key exchange mechanism. In short this is not supported by default from the java. Here is a [link](http://docs.oracle.com/javase/8/docs/technotes/guides/security/SunProviders.html#SunJCEProvider) for the curious.
+This is easy to fix however.  
+Step 1: Download [Java Cryptography Extension (JCE)](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)  
+Step 2: Locate your jre. Replace 2 jars (local_policy.jar и US_export_policy.jar) in jre\lib\security with the new from JCE.  
+Step 3: Run [this code](http://pastebin.com/WsPY7u2M) and see if TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA is in the enabled section of the output.
