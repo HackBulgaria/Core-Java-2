@@ -1,0 +1,3 @@
+- if time permits talk about advanced threading
+- using java.util.concurrent
+- use concurrent collections
