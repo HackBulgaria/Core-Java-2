@@ -4,6 +4,11 @@ http://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html
 *And now read a normal answer from stack overflow*
 http://stackoverflow.com/questions/7213541/what-is-java-servlet
 
+*Eclipse EE*  
+https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunar
+
+*TomEE JAX-RS*  
+http://www.apache.org/dyn/closer.cgi/tomee/tomee-1.7.1/apache-tomee-1.7.1-jaxrs.zip
 
 ### Stop the Tomcat instance launched from Eclipse
 Shutdown Eclipse's use of tomcat. We will not let Eclipse manage tomcat for us this time.  
