@@ -4,6 +4,9 @@ http://docs.oracle.com/javaee/6/tutorial/doc/bnafe.html
 *And now read a normal answer from stack overflow*
 http://stackoverflow.com/questions/7213541/what-is-java-servlet
 
+*A short book (or an extended tutorial) on servlets*
+http://pdf.coreservlets.com/Servlet-Basics.pdf
+
 *Eclipse EE*  
 https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunar
 
