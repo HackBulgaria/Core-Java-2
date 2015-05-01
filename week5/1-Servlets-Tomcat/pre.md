@@ -1,11 +1,14 @@
-*What is a servlet according to Oracle*
-http://docs.oracle.com/javaee/6/tutorial/doc/bnafe.html
-
-*And now read a normal answer from stack overflow*
+*In short, what is a servlet?*
 http://stackoverflow.com/questions/7213541/what-is-java-servlet
 
-*A short book (or an extended tutorial) on servlets*
+*This is how you create your first servlet*
+http://www.journaldev.com/1854/java-web-application-tutorial-for-beginners
+
+*If you want to learn more about servlets here is a short book (or an extended tutorial)*
 http://pdf.coreservlets.com/Servlet-Basics.pdf
+
+*And of course, Oracle's documentation on servlets _#tl;dr_*
+http://docs.oracle.com/javaee/6/tutorial/doc/bnafe.html
 
 *Eclipse EE*  
 https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunar
