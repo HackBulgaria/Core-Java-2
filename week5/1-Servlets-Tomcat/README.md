@@ -1,4 +1,4 @@
-### Servlet/HelloWorld
+### 1. Servlet/HelloWorld
 - Create an Http Servlet. Override the `doGet` method, and write 'HelloWorld!' to the response's outputStream.
 - Run your application on Eclipse ('Run as Server').
 - See your own message at 'localhost:8080/YourAppName/YourServletName'
@@ -14,7 +14,7 @@
 Congratulations. You've just witnessed what ASP/JSP/PHP is all about. We are not going to do any of that ~~sh**~~ stuff.
 
 
-### Simple news agregator
+### 2. Simple news agregator
 Do you know what an [RSS](http://en.wikipedia.org/wiki/RSS) is?   
 It is a simple format for describing **content** (just the content, and not it's visualization). It is an XML-based format.  
 
@@ -38,7 +38,7 @@ Hints:
 - Use this ROME tutorial: http://blog.manishchhabra.com/2011/10/rome-library-example-for-parsing-rss-and-atom-feeds/  
   
 
-### Simple JSON pretty printer service.
+### 3. Simple JSON pretty printer service.
 Just look at the JSON at http://hackbulgaria.com/api/checkins . It is horrible - completely unreadable. What are the elements? What are the JSON objects? You cannot easily tell.
 
 - Deploy a servlet, that accepts a named "POST" parameter "json". 
