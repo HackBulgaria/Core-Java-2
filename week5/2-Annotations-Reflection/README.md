@@ -1,6 +1,4 @@
-###OOP fun!###
-
-### 1 Declare an annotation type 'ClassInfo' ###
+### 1. Declare an annotation type 'ClassInfo' ###
 It should contain information about:
 - author of the class
 - revision of the class (by default it should be 1)
@@ -12,5 +10,5 @@ It should contain information about:
 - Now fetch your own annotation using `yourInstance.getClass().getAnnotation(YourAnnotationName.class);`
 - Print out all the filled information 
 
-###2###
-Write an implementation of JUnit framework yourself (team-work).
+### 2. JUnit ###
+Write an implementation of JUnit framework yourself
