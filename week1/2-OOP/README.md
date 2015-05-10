@@ -58,12 +58,12 @@ See http://www.programmerinterview.com/index.php/java-questions/java-anonymous-c
 Return your anonymous implementation from a factory method!
 
 ###8###
-Make a mutable class 'Matrix' represeting a NxM (int[][]) matrix. Think good about your constructors, your data. Your goal is to make this class as convenient as possible for the person using it.
+Make a mutable class 'Matrix' represeting a NxM (Pixel[][]) matrix. `Pixel` is a POJO containing three float values - R, G, B. Think good about your constructors, your data. Your goal is to make this class as convenient as possible for the person using it.
 
 Your class `Matrix` should have another cool thing about it => it would allow operations with every pixel.
 In order for this to work, your class should declare a public method `operate(MatrixOperation op)`
 
-Where `MatrixOperation` is an interface, containing a method 'int withPixel(int x, int y, int[][] matrix)'.
+Where `MatrixOperation` is an interface, containing a method 'Pixel withPixel(int x, int y, Pixel[][] matrix)'.
 *Think - why are we getting x, y, and the matrix instead of just passing the pixel value?*
 
 Implement the toString(), converting the whole matrix into a String in a way that it would be visible on the console.
@@ -71,20 +71,9 @@ Implement the toString(), converting the whole matrix into a String in a way tha
 The method should `operate(MatrixOperation op)`  should call the `withPixel` method for every x and y in the matrix and assign the result of `withPixel` to the matrix.
 
 Now that you have this, implement:
--a naive binarization filter, using a simple threshold, for instance 127.
--a naive gaussian blur filter, which just averages the color of this pixel by using the colors of its neighbour pixels!
-
-*Bonuses* - Use a *local class* to fetch information about the matrix using the MatrixOperation interface.
-
-Make an implementation of MatrixOperation, that you can use to:
-- get average of pixels
-- get most used color in the matrix
-- get an image histogram of the matrix 
-
-See http://docstore.mik.ua/orelly/java-ent/jnut/ch03_11.htm
-
-Idea -- implement gausian filter?
-
+- brightness reduce
+- grayscale
+- gaussian blur (optional)
 
 ###9###
 Create a friendly interactive calculator in java

@@ -1,6 +1,6 @@
 All tasks should go into 'Exceptions1' project in your workspace. 
 
-### Unchecked (runtime) exception example usage
+### 1. Unchecked (runtime) exception example usage
 Design an unchecked Exception class "DatabaseCorruptedException", which is to be thrown whenever a corrupted database object is detected (e.g. "" for username in table `Users`).
 Use good and concise exception message, explaining what is wrong with the object `User` object - for this excercise you can assume that the `username` field is "".
 
@@ -8,7 +8,7 @@ Use good and concise exception message, explaining what is wrong with the object
 
 Make a method that throws this exception. Use it and see your message in the stack trace.
 
-### Checked exception example usage
+### 2. Checked exception example usage
 Imagine you are designing an API for using services.  
 
 *In the real world, services break all the time. Network connections go down, firewalls go crazy, routers get re(s)tarted, etc. It is more or less expected of you to be network fault-tolerant, as networks are not perfect and they just can't be.* 
@@ -22,13 +22,13 @@ After you are done with that, try and use your method.
 Observe how every time you use it, you are forced to think *what will happen if this service fails?*.
 
 
-### Make the 'Time' class fool-proof
+### 3. Make the 'Time' class fool-proof
 Remember you wrote a `Time` class, some weeks ago? Go back, copy your class into your project and **make it fool-proof**. Protect the poor public user of your class using exceptions.  Think of some unpleasent (or edge-case) situations that may occur while using your class.
 
 Hint: Check http://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html and
 http://stackoverflow.com/questions/15208544/when-should-illegalargumentexception-be-thrown
 
-### Do not allow them to insert null as a key!
+### 4. Do not allow them to insert null as a key!
 You know HashMap in java. They are completely happy with (null, null) key-value pairs.
 Let's say we are not happy with this being the default behavior. Especially for **keys**.
 
@@ -36,18 +36,24 @@ Extends `HashMap` and make it optional for your class to accept null **keys**, b
 Fix the `put`, `get` methods accordingly to allow or not allow null keys. 
 What should you do in those methods if your object is set not to allow null keys? Throw your very own, good-named, custom-made exception with a good message, of course.
 
-### Impement your very own immutable list
+### 5. Impement your very own immutable and unmodifiable list
 Create a class 'ImmutableList', which implements List. It's okay to extend something else.
 Your delcaration should be like this:
 `public class Immutable<E> extends ArrayList<E>`
  
-But make your instances immutable, and throw exception when anyone tries to modify them.
+Unmodifiable collection is collection which oce crated can not accept new ellements and its ellements can not be removed.Its add and remove methods should throw exception. 
+
+immutable collection is when its ellements can not be changed once put in it.
+
 Of course, in order for your class to be immutable, you need good constructors.
 Make a constructor that accepts a `Collection<? extends E> collection` in which you add all the elements from `collection` to your list, and forbid anyone to modify it by throwing an exception when anyone tries to do that. 
 
 Implement `Arrays.asList()` factory method functionality - declare a static method `<T> List<T> asList(T... arguments)`. 
 Use the `@SafeVarargs` annotation on top of your method declararation to tell the compiler you won't be naughty.
 
+Hint: In the `get` method return a clone of the element, so it can't be modified from the outside. Use Apache Commons for object cloning https://commons.apache.org/proper/commons-lang/javadocs/api-2.6/org/apache/commons/lang/SerializationUtils.html
+
+##Bonus!##
 ### Implement a XmlMarkupBuilder class ###
 Make an easy to use XmlMarkupBuilder class, which creates a **valid xml** 
 
