@@ -33,6 +33,9 @@ The scenario we want is the following:
 ### Implement a simple blocking queue.
 A blocking queue is just like a regular queue, with the difference that if someone calls `poll()` and the queue is empty, the call is blocked until somebody adds an element to the queue. After an element is added, the caller (the one who called `poll()`) gets unblocked and the `poll()` call returns.
 
+### Bonus: 
+Introduce classical very common interview scenario *Producer - Consumer problem*. Create several threads (Producers) that only produce `add(E e)` in your queue and several threads (Consumers) that only consume `poll()` from your queue. Your blocking queue should have a max size. When a max size is reached all producers are halted until some object have been consumed.  
+
 
 
 ### Paralel minimal point calculations
