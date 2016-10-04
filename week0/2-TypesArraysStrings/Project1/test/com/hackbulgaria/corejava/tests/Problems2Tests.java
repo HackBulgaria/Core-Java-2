@@ -188,8 +188,8 @@ public class Problems2Tests {
     @Test
 	public void testStringReverse(){
 	    assertEquals("ytrewq", problems2.reverseMe("qwerty"));
-	    assertEquals("How about", problems2.reverseMe("tuoba woH"));
-	    assertEquals("   ", "   ");
+	    assertEquals("about How", problems2.reverseMe("tuoba woH"));
+	    assertEquals("   ", problems2.reverseMe("   "));
 	    assertEquals("This is bad", problems2.reverseMe(problems2.reverseMe("This is bad")));
 	}
     
